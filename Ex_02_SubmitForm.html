@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ex_02_-2</title>
+</head>
+<body>
+	<center><h1>SUBMIT YOUR DETAILS<h1></center>
+	<table width="60%">
+	<td>
+	<fieldset>
+	<legend>Personal Details</legend>
+	<form>
+		<label for="firstname">*First Name:</label>
+		<input type="text" id="firstname" name="firstname" placeholder="enter the first name"><br><br>
+		<label for="middlename">*Middle Name:</label>
+		<input type="text" id="middlename" name="middlename" placeholder="enter the middle name"><br><br>
+		<label for="lastname">*Last Name:</label>
+		<input type="text" id="lastname" name="lastname" placeholder="enter the last name"<br><br>
+		<br>
+		<label for="dateofbirth">*Date of Birth:</label>
+		<input type="date" id="dateofbirth" name="dateofbirth"><br><br>
+		<label for="ageinyears">*Age in Years:</label>
+		<input type="number" id="ageinyears" name="ageinyears" min="20" max="30">
+		<p>*Gender:&nbsp;&nbsp;&nbsp;<input type="radio" id="male" name="gender" value="Male">
+		<label for="male">Male</label>
+		<input type="radio" id="female" name="gender" value="Female">
+		<label for="female">Female</label></p>
+		
+	</form>
+	</fieldset>
+	</td>
+	</table>	
+	<progress value="20" max="75"></progress>20% completed
+	<br>
+	<fieldset>
+	<legend>Address Details</legend>
+	<form>
+        	*Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea row="20" cols="70" required></textarea>
+		<br><br><!-- comment -->
+		*City / Town&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="City Town" required>
+		<br><br>
+		*State &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="state" required>
+		<br><br>
+		*Zipcode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="numbers" name="zipcode" max="6" placeholder="only 6 numbers" required>
+
+	</form>
+	</fieldset>
+	<progress value="40" max="100"></progress>40% completed
+	<br>
+	<fieldset>
+	<legend>Contact Information</legend>
+	<form>
+		*Telephone Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" pattern="[0-9]{10}" placeholder="(044)999-9999" required>
+		<br><br>
+		*Mobile Number&nbsp;&nbsp;&nbsp;<input type="tel" pattern="[0-9]{10}" placeholder="9999999999" required>
+		<br><br>
+                *Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" placeholder="valid email" required>
+		<br><br><!-- comment -->
+                Website&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="url" name="website URL" placeholder="valid url" required>
+	</form>
+	</fieldset>
+	<progress value="60" max="100"></progress>60% completed
+	<br>
+	<fieldset>
+	<legend>Educational Details</legend>
+	<form>
+	<table border="1" width="100%">
+	<tr>	
+		<th>Qualification</th>
+		<th>Board/University</th>
+		<th>Country</th>
+		<th>Starting Year</th>
+		<th>Ending Year</th>
+		<th>Percentage</th>
+	</tr>
+	<tr>
+		<td><input type="checkbox">10th</td>
+		<td><input type="text" placeholder="Board or University" width="100%"></td>
+		<td><select>
+				<option>India</option>
+				<option>Austria</option>
+				<option>USA</option>
+				<option>Germany</option>
+				<option>London</option>
+		</select></td>
+		<td><input type="date" name="Starting Date"></td>
+		<td><input type="date" name="Last Date"></td>
+		<td><input type="number" name="percentage" min="45" max="100"></td>
+	</tr>
+	<tr>
+		<td><input type="checkbox">12th</td>
+		<td><input type="text" placeholder="Boarder or University" width="100%"></td>
+		<td><select>
+				<option>India</option>
+				<option>Austria</option>
+				<option>USA</option>
+				<option>Germany</option>
+				<option>London</option>
+		</select></td>
+		<td><input type="date" name="Starting Date"></td>
+		<td><input type="date" name="Last Date"></td>
+		<td><input type="number" name="percentage" min="45" max="100"></td>
+	</tr>
+	<tr>
+		<td><input type="checkbox">B.Tech</td>
+		<td><input type="text" placeholder="Boarder or University" width="100%"></td>
+		<td><select>
+				<option>India</option>
+				<option>Austria</option>
+				<option>USA</option>
+				<option>Germany</option>
+				<option>London</option>
+		</select></td>
+		<td><input type="date" name="Starting Date"></td>
+		<td><input type="date" name="Last Date"></td>
+		<td><input type="number" name="percentage" min="45" max="100"></td>
+	</tr>
+	<tr>
+		<td><input type="checkbox">M.Tech</td>
+		<td><input type="text" placeholder="Boarder or University" width="100%"></td>
+		<td><select>
+				<option>India</option>
+				<option>Austria</option>
+				<option>USA</option>
+				<option>Germany</option>
+				<option>London</option>
+		</select></td>
+		<td><input type="date" name="Starting Date"></td>
+		<td><input type="date" name="Last Date"></td>
+		<td><input type="number" name="percentage" min="45" max="100"></td>
+	</tr>
+	</table>
+	</form>
+	</fieldset>
+	<progress value="80" max="100"></progress>80% completed
+	<br>
+	<table border="1px" width="65%">
+	<td>
+	<div>
+        	Attach your Resume in doc or .pdf format&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" accept=".pdf" required>
+		<br>
+	<input type="checkbox" required>I filled all the details</td>
+	</div>
+	</td>
+	</table>
+	<progress value="100" max="100"></progress>100% completed
+	<br>
+	<center>
+		<input type="submit" Value="submit your resume" placeholder="Submit">
+	</center>
+
+		
+
+</body>
+</html>
